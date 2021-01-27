@@ -56,15 +56,15 @@ public class Etilank {
         switch (pilihan){
             case 1:
                 type = "Tidak Memakai Helm";
-                nominal = 500000;
+                nominal = 600000;
                 break;
             case 2:
                 type = "Tidak Membawa surat-surat";
-                nominal = 250000;
+                nominal = 200000;
                 break;
             case 3:
                 type = "Telat Bayar Pajak";
-                nominal = 750000;
+                nominal = 700000;
                 break;
             default:
                 System.out.println("Mohon Masukan Pelanggaran Dengan Benar Atau Anda Mendapatkan Denda");
