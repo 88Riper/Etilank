@@ -45,7 +45,7 @@ public class Etilank {
         System.out.println("===============================");
         System.out.println("Silahkan Isi data dibawah ini");
         System.out.println("Tipe Pelanggaran yang anda lakukan");
-        System.out.println("1.Tidak Memakai helm (RP.600.000)");
+        System.out.println("1.Tidak Memakai helm (RP.400.000)");
         System.out.println("2.Tidak membawa surat-surat (RP.200.000)");
         System.out.println("3.telat bayar pajak(RP.700.000)");
         System.out.println("Masukan Nominal Denda yang anda lakukan");
@@ -56,7 +56,7 @@ public class Etilank {
         switch (pilihan){
             case 1:
                 type = "Tidak Memakai Helm";
-                nominal = 600000;
+                nominal = 400000;
                 break;
             case 2:
                 type = "Tidak Membawa surat-surat";
