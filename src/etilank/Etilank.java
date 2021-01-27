@@ -41,12 +41,13 @@ public class Etilank {
         
         Scanner sc = new Scanner (System.in);
         
+	//Pilihan
         System.out.println("===============================");
         System.out.println("Silahkan Isi data dibawah ini");
         System.out.println("Tipe Pelanggaran yang anda lakukan");
-        System.out.println("1.Tidak Memakai helm (RP.500.000)");
-        System.out.println("2.Tidak membawa surat-surat (RP.250.000)");
-        System.out.println("3.telat bayar pajak(RP.760.000)");
+        System.out.println("1.Tidak Memakai helm (RP.600.000)");
+        System.out.println("2.Tidak membawa surat-surat (RP.200.000)");
+        System.out.println("3.telat bayar pajak(RP.700.000)");
         System.out.println("Masukan Nominal Denda yang anda lakukan");
         pilihan = sc.nextInt();
         
