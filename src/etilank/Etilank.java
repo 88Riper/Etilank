@@ -47,7 +47,7 @@ public class Etilank {
         System.out.println("Tipe Pelanggaran yang anda lakukan");
         System.out.println("1.Tidak Memakai helm (RP.500.000)");
         System.out.println("2.Tidak membawa surat-surat (RP.200.000)");
-        System.out.println("3.telat bayar pajak(RP.700.000)");
+        System.out.println("3.telat bayar pajak(RP.550.000)");
         System.out.println("Masukan Nominal Denda yang anda lakukan");
         pilihan = sc.nextInt();
         
@@ -64,7 +64,7 @@ public class Etilank {
                 break;
             case 3:
                 type = "Telat Bayar Pajak";
-                nominal = 700000;
+                nominal = 550000;
                 break;
             default:
                 System.out.println("Mohon Masukan Pelanggaran Dengan Benar Atau Anda Mendapatkan Denda");
@@ -129,6 +129,8 @@ public class Etilank {
     public static void menuUtama(){
         
         int pilihan;
+
+	//pilihan
         
         Etilank et =  new Etilank();
         Scanner sc =  new Scanner(System.in);
